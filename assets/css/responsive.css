@@ -1,0 +1,127 @@
+@media all and (min-width: 768px){
+	.header-menu ul {
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+}
+
+@media all and (max-width: 767px){
+	.section-padding {
+		padding: 3rem 0;
+	}
+	.header-menu ul {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		display: none;
+	}
+	.header-menu {
+		padding: 1rem 0 2rem 0;
+	}
+	.header-menu ul li a {
+		margin: 1rem 0rem;
+	}
+	.header-logo {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.nav-icon{
+		display: block;
+	}
+	.item-single-area.ss{
+		padding-bottom: 3rem;
+	}
+	.item-content h2 {
+		padding-top: 1.5rem;
+	}
+	.item-content span {
+		margin: 1rem auto;
+	}
+	.blog-item.bb {
+		padding-bottom: 3rem;
+	}
+	.testi-btn {
+		padding-top: 3rem;
+	}
+	.team-details.ss {
+		padding-bottom: 3rem;
+	}
+	.team-content p {
+		padding: 1rem 0;
+	}
+	.team-content h2 {
+		padding: 2rem 0 1.5rem 0;
+	}
+	.contact-item.ss {
+		padding-bottom: 3rem;
+	}
+	.contact-item p {
+		padding: 1.5rem 0;
+	}
+	.contact-item h2 {
+		padding-bottom: 1.5rem;
+	}
+	.blog-content p,
+	.testi-content p {
+		padding-top: 1.5rem;
+	}
+	.testi-content h2 {
+		padding-bottom: 1.5rem;
+	}
+	.blog-content h2 {
+		padding: 2rem 0 1.5rem 0;
+	}
+	.theme-left {
+		padding-bottom: 3rem;
+	}
+	.theme-details p {
+		padding: 1.5rem 0;
+	}
+	.clients-area h2 {
+		padding-bottom: 1.5rem;
+	}
+	.footer-left {
+		text-align: center;
+		padding-bottom: 1.5rem;
+	}
+	.footer-icon ul {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+}
+
+@media all and (max-width: 576px){
+	.header-title h2 {
+		font-size: 3rem;
+	}
+	.header-content h3 {
+		padding: 0 1rem;
+	}
+	.header-content {
+			padding: 2rem 0;
+	}
+	.header-btn {
+			padding: 1rem 0;
+	}
+	.blog-img {
+		width: 100%;
+	}
+	.blog-content p {
+		width: 90%;
+	}
+	.theme-left {
+		width: 100%;
+	}
+	.clients-area h2 {
+		font-size: 1.6rem;
+	}
+}

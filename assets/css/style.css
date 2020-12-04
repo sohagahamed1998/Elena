@@ -1,0 +1,640 @@
+/** 
+Template Name: Elena - HTML Template
+Template URL: http://coderitsoltion.com
+Author: Coder IT Solution
+Author URI: http://coderitsoltion.com
+Description:Elena HTML Template
+Keywords: html,css,js
+
+**/
+
+ 	  /************************/
+	 /******* Main CSS *******/
+	/************************/
+
+html{
+	font-size: 62.5%;
+}
+body{
+	overflow-x:hidden; 
+}
+ul{
+ 	list-style:none;
+ 	padding: 0;
+ 	margin: 0;
+}
+a{
+ 	text-decoration: none;
+ 	display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+ 	margin: 0px;
+}
+.owl-dot:focus {
+	outline: none !important;
+}
+
+@font-face {
+    font-family: 'Belinda';
+    src: url('../fonts/Belinda.woff2') format('woff2'),
+        url('../fonts/Belinda.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Entypo';
+    src: url('../fonts/Entypo.woff2') format('woff2'),
+        url('../fonts/Entypo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaLight.woff2') format('woff2'),
+        url('../fonts/NexaLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+	  /************************/
+	 /****** Default CSS *****/
+	/************************/
+
+
+	/*font-family: 'Cabin', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+	font-family: 'Belinda';
+	
+	font-family: 'Entypo';
+
+	font-family: 'Nexa';
+    */
+
+.section-padding{
+	padding: 60px 0;
+	padding:6rem 0;
+}
+.btn-sty-1 {
+	color: #f5f5f5;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding: 10px 30px;
+	padding: 1rem 3rem;
+	background: #50c3af;
+	border-radius: 24px;
+	-webkit-transition: .5s;
+	transition: .5s;
+} 
+.btn-sty-1:hover{
+	background: #d2d5da;
+	color:#f5f5f5 ;
+}
+
+
+	  /***************************/
+	 /**** 1.Header Css Start ***/
+	/***************************/
+
+.header-area{
+	background: url(../images/banner/header-bnr.jpg) no-repeat scroll 0 0 / 100% 100%;
+	position: relative;
+	z-index: 1;
+}
+.header-area:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	background:#323a45;
+	opacity: 51%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
+	z-index:-1; 
+}
+.header-details{
+	text-align: center;
+}
+.header-logo a {
+	font-family: 'Belinda';
+	font-size: 50px;
+	font-size: 5rem;
+	color: #FFF;
+}
+.header-menu {
+	padding: 40px 0 60px 0;
+	padding: 4rem 0 6rem 0;
+}
+.header-menu ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.header-menu ul li a {
+	color: #ffffff;
+	font-size: 13px;
+	font-size: 1.3rem;
+	 font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin: 0 10px;
+	margin: 0 1rem;
+	text-transform: uppercase;
+}
+.header-title h2 {
+	color: #ffffff;
+	font-size: 50px;
+	font-size: 5rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+.header-content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 30px 0;
+	padding: 3rem 0;
+}
+.header-content span {
+	background: #4e6570;
+	display: block;
+	width: 80px;
+	height: 2px;
+}
+.header-content h3 {
+	color: #FFF;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 700;
+	font-family: 'PT Sans', sans-serif;
+	padding: 0 20px;
+	padding: 0 2rem;
+}
+.header-btn {
+	padding: 50px 0;
+	padding: 5rem 0;
+}
+
+	  /************************/
+	 /*** 1.Header Css End ***/
+	/************************/
+
+
+
+	  /************************/
+	 /*** 2.Team Css Start ***/
+	/************************/
+
+.item-area{
+	background:#eeeeef;
+}
+.item-single-area {
+	text-align: center;
+}
+.item-icon i {
+	color: #50c3af;
+	font-size: 40px;
+	font-size: 4rem;
+}
+.item-content h2 {
+	color: #384048;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 700;
+	font-family: 'PT Sans', sans-serif;
+	padding-top: 25px;
+	padding-top: 2.5rem;
+}
+.item-content span {
+	background: #e2e3e4;
+	display: block;
+	width: 50%;
+	height: 2px;
+	margin: 0 auto;
+	margin: 20px auto;
+	margin: 2rem auto;
+}
+.item-content p {
+	color: #787b80;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	width: 50%;
+	margin: 0 auto;
+}
+	
+	  /**********************/
+	 /*** 2.Team Css End ***/
+	/**********************/
+
+
+
+	  /************************/
+	 /*** 3.Blog Css Start ***/
+	/************************/
+
+.blog-content span {
+	
+}
+.blog-img {
+	width: 90%;
+	height: auto;
+}
+.blog-img img{
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+.blog-content h2 {
+	color: #384048;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: 'PT Sans', sans-serif;
+	padding: 40px 0 25px 0;
+	padding: 4rem 0 2.5rem 0;
+	display: inline-block;
+	position: relative;
+}
+.blog-content h2:after {
+	content: "";
+	position: absolute;
+	background: #eaeaeb;
+	display: block;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+}
+.blog-content p {
+	color: #787b80;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 400;
+	width: 50%;
+	font-family: 'PT Sans', sans-serif;
+	padding-top: 20px;
+	padding-top: 2rem;
+}
+.blog-btn {
+	padding-top: 30px;
+	padding-top: 3rem;
+}
+
+      /**********************/
+	 /*** 3.Blog Css End ***/
+	/**********************/
+
+
+
+      /*************************/
+	 /*** 4.Testi Css Start ***/
+	/*************************/
+.testi-area{
+	background: #eeeeef;
+}
+.testi-content h2 {
+	color: #384048;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: 'PT Sans', sans-serif;
+	position: relative;
+	display: inline-block;
+	padding-bottom: 20px;
+	padding-bottom: 2rem;
+}
+.testi-content h2:after{
+	content: "";
+	position: absolute;
+	background: #e3e4e5;
+	display: block;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+}
+.testi-content h2 i {
+	color: #c6cbd1;
+	margin-right: 15px;
+	margin-right: 1.5rem;
+}
+.testi-content p {
+	color: #787b80;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	padding-top: 20px;
+	padding-top: 2rem;
+}
+.testi-btn {
+	padding-top: 40px;
+	padding-top: 4rem;
+}
+      /***********************/
+	 /*** 4.Testi Css End ***/
+	/***********************/
+
+
+
+	  /************************/
+	 /*** 5.Team Css Start ***/
+	/************************/
+.team-area{
+	background: #f5f5f5;
+}
+.team-img {
+	width: 100%;
+	height: auto;
+}
+.team-img img{
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+.team-content h2{
+	color: #384048;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	position: relative;
+	padding: 30px 0 20px 0;
+	padding:3rem 0 2rem 0;
+}
+.team-content h2:after {
+	content: "";
+	position: absolute;
+	background: #ebebeb;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+}
+.team-content p {
+	color: #787b80;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	padding: 20px 0;
+	padding: 2rem 0;
+}
+.team-content a {
+	color: #50c3af;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+}
+
+	  /**********************/
+	 /*** 5.Team Css End ***/
+	/**********************/
+
+
+
+	  /***********************/
+	 /*** 6.Contact Strat ***/
+	/***********************/
+
+.contact-area{
+	background: #eeeeef;
+}
+.contact-item h2 {
+	color: #384048;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: 'PT Sans', sans-serif;
+	position: relative;
+	padding-bottom: 20px;
+	padding-bottom: 2rem;
+}
+.contact-item h2:after{
+	content: "";
+	position: absolute;
+	background: #e3e4e5;
+	width: 87%;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+}
+.contact-item h2 i {
+	color: #c6cbd1;
+}
+.contact-item p {
+	color: #787b80;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	width: 90%;
+	padding: 25px 0;
+	padding: 2.5rem 0;
+}
+
+	  /*************************/
+	 /*** 6.Contact Css End ***/
+	/*************************/
+
+
+
+	  /*************************/
+	 /*** 7.Theme Css Start ***/
+	/*************************/
+.theme-area{
+	background: #f5f5f5;
+}
+.theme-left {
+	width: 80%;
+	height: auto;
+}
+.theme-left img{
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+.theme-details h2{
+	color: #384048;
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: 'PT Sans', sans-serif;
+	position: relative;
+	padding-bottom: 20px;
+	padding-bottom: 2rem;
+}
+.theme-details h2:after {
+	content: "";
+	position: absolute;
+	background: #ebebeb;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+}
+.theme-details p {
+	color: #787b80;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	padding: 30px 0;
+	padding: 3rem 0;
+}
+	  /***********************/
+	 /*** 7.Theme Css End ***/
+	/***********************/
+
+
+	  /***************************/
+	 /*** 8.Clients Css Start ***/
+	/***************************/
+
+
+.clients-area{
+	background: #50c3af;
+}
+.clinets-title {
+	text-align: center;
+}
+.clients-area h2 i{
+	margin-right: 10px;
+	margin-right: 1rem;
+}
+.clients-area h2 {
+	color: #ffffff;
+	font-size: 18px;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'PT Sans', sans-serif;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 20px;
+	padding-bottom: 2rem;
+}
+.clients-area h2:after{
+	content: "";
+	position: absolute;
+	background: #61c8b6;
+	width: 100%;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+}
+.clients-img ul {
+	text-align: center;
+	padding: 30px 0;
+	padding: 3rem 0;
+}
+.clients-img ul li a {
+	color: #ffffff;
+	font-size: 30px;
+	font-size: 3rem;
+}
+.clients-img ul li:nth-child(1){
+	font-family: 'Belinda';
+}
+.clients-img ul li:nth-child(2){
+	font-family: 'Nexa';
+	font-weight: 400;
+}
+.clients-img ul li:nth-child(3){
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+}
+.clients-img ul li:nth-child(4){
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+}
+
+
+	  /*************************/
+	 /*** 8.Clients Css End ***/
+	/*************************/
+
+
+
+	  /**************************/
+	 /*** 9.Footer Css Strat ***/
+	/**************************/
+
+.footer-area{
+	background: #f5f5f5;
+	padding: 20px 0;
+	padding: 2rem 0;
+}
+.footer-left h2 {
+	color: #787b80;
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+.footer-icon ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: end;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.footer-icon ul li a i {
+	color: #323a45;
+	opacity: 52%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=NaN)";
+	font-size: 20px;
+	font-size: 2rem;
+	margin: 0 0 0 15px;
+	margin: 0 0 0 1.5rem;
+}
+	  /************************/
+	 /*** 9.Footer Css End ***/
+	/************************/
+.nav-icon {
+	font-size: 20px !important;
+	font-size: 2rem !important;
+	padding: 2px 7px !important;
+	padding: .2rem .7rem !important;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	display: none;
+}
